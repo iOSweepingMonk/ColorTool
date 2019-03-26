@@ -1,4 +1,5 @@
 # ColorTool
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/iOSweepingMonk/ColorTool.svg?style=flat)](https://travis-ci.org/iOSweepingMonk/ColorTool)
 [![Version](https://img.shields.io/cocoapods/v/ColorTool.svg?style=flat)](https://cocoapods.org/pods/ColorTool)
@@ -27,3 +28,6 @@ iOSweepingMonk, 740305122@qq.com
 ## License
 
 ColorTool is available under the MIT license. See the LICENSE file for more info.
+=======
+颜色库的工具
+>>>>>>> 809ffe963ccca2b638f6f87d8f3d1932acaf0117
