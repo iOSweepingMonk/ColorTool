@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ColorTool_Example' do
+  pod 'ColorTool', :path => '../'
+
+  target 'ColorTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
