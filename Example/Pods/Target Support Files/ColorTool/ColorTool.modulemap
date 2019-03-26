@@ -1,0 +1,6 @@
+framework module ColorTool {
+  umbrella header "ColorTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

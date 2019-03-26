@@ -1,0 +1,6 @@
+framework module Pods_ColorTool_Tests {
+  umbrella header "Pods-ColorTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

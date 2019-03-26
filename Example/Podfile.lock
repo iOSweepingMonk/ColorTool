@@ -1,0 +1,16 @@
+PODS:
+  - ColorTool (0.1.0)
+
+DEPENDENCIES:
+  - ColorTool (from `../`)
+
+EXTERNAL SOURCES:
+  ColorTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColorTool: 0f9c1b400585209aa36a9f445535a29b4f9dc485
+
+PODFILE CHECKSUM: b02387f0d1822050920569b15d8a375441b2d904
+
+COCOAPODS: 1.5.0
