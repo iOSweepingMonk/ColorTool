@@ -11,6 +11,8 @@
 #endif
 
 #import "UIColor+HexColor.h"
+#import "UIImage+maxSize.h"
+#import "UIImage+Scale.h"
 
 FOUNDATION_EXPORT double ColorToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char ColorToolVersionString[];

@@ -8,6 +8,7 @@
 
 #import "HNViewController.h"
 #import "UIColor+HexColor.h"
+#import "UIImage+Scale.h"
 
 @interface HNViewController ()
 
@@ -18,6 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [UIImage imageWithImage:nil scaledToSize:CGSizeZero];
     self.view.backgroundColor = [UIColor colorWithHexString:@"#ffbbaa"];
 }
 
@@ -28,3 +30,4 @@
 }
 
 @end
+

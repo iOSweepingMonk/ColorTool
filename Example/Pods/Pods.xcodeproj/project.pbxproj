@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D6E7D983370D5B9869DD19DFA4E32C5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 24183D322A8F89DBBF8C696D6A81ADE8 /* ReplaceMe.m */; };
+		25F58C247083702EA3C8EED40A90A69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3654398447208F3BA878B9051A6EA3AB /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C6F139A80500C219AC725F5E5547DA /* UIColor+HexColor.m */; };
 		44FBB2A4110F0DF79F514F5481D9E972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		46F45451F58BEF137D62FC59CE7E022A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		738FB3FA8C47268D583678AC471924E3 /* ColorTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5CE8EC0C3D879E107965350B50CA6F /* ColorTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B8F9BFE9747BC5AEAA160411AAFACC0 /* ColorTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E5C854577CB743978108717CED65D /* ColorTool-dummy.m */; };
-		94EA321CAC4BF75667EA1EF609587097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A73404367BA8290EB2276DF3BC8140B /* UIImage+Scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F579F93FE69E503D6A5F5CE51CAF68 /* UIImage+Scale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9853ABA2933E603B3E8E5873CFCE8FC8 /* ColorTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E5069025F93912197EB794871AB274 /* ColorTool-dummy.m */; };
+		99588A4FAC7687A4E4D0D36CD1700A85 /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 022884A10691A3105F237FF0C1C21612 /* UIColor+HexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7AF890BAC3A0EF52BC029198860A663 /* Pods-ColorTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836222055B07177848172DCF0935C28 /* Pods-ColorTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC18A759F07E39C90F992F4BB172235E /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B656622C69BDC934AD98B0FFE731D86F /* UIColor+HexColor.m */; };
+		D260B7DBE752AC9134040BFEB18522C9 /* UIImage+maxSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA7DC73A299D7D88A7EA8DDDCD005D /* UIImage+maxSize.m */; };
+		DD80E0EF34BC55AD47CFD910E59FC134 /* ColorTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF855F6810D6FAC3AAF28F6DD50C7D /* ColorTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF74FA602068671037851532BC7FDE35 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67B016B608061C6EBD594E315CF550 /* UIImage+Scale.m */; };
 		E2E95B65A8BC10417E51C7AF9D5A3E3B /* Pods-ColorTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B352B5D568787153BFDBD9F78C97DCF /* Pods-ColorTool_Tests-dummy.m */; };
 		ED08CF5D3F8CD6DE6392FB13A0E6B2F0 /* Pods-ColorTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E10B0349DC5538F89D238343BFBAFA15 /* Pods-ColorTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70E165171DD16004A960C483BF7FBD9 /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E9E4014C26F2ED5632EF9B00B337E1 /* UIColor+HexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2FC55AB56430A02D92ECED4AE7FF7A /* UIImage+maxSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 0734D415787ECBA62DD8516FBF3A866D /* UIImage+maxSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7927C38BE1AEB0305B61ACAB680CF1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 39560B758E84668A4A2DE094AD178D86 /* ReplaceMe.m */; };
 		FF183FCD908B3E0BF76872A026060BDB /* Pods-ColorTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2D19C1DA020F1D3302E957298CB70 /* Pods-ColorTool_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +30,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73888F110AAC500019643336293FA20A;
+			remoteGlobalIDString = 9772B85DE7099B406BC8C0F2DBA0B411;
 			remoteInfo = ColorTool;
 		};
 		D66EF3095AFA9CF9B9E8CDE2A762FF5E /* PBXContainerItemProxy */ = {
@@ -39,43 +43,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0137EB1C3644F639FC44E5BD98B86AD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		022884A10691A3105F237FF0C1C21612 /* UIColor+HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
 		03BA7C7C015CC63991F450F6C625F064 /* Pods_ColorTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorTool_Tests.framework; path = "Pods-ColorTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0734D415787ECBA62DD8516FBF3A866D /* UIImage+maxSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+maxSize.h"; sourceTree = "<group>"; };
 		08325982AD911AC279B277737204410F /* Pods-ColorTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A90D43A07B617C9C05A893F2BF9C27E /* ColorTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorTool.modulemap; sourceTree = "<group>"; };
 		100400D00FF767471354B4EDF0013F4F /* Pods-ColorTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13C6F139A80500C219AC725F5E5547DA /* UIColor+HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		13CF75F2BA4A43A52C649EAC134926CC /* ColorTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorTool.framework; path = ColorTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24183D322A8F89DBBF8C696D6A81ADE8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ColorTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		2B00188867B5686ED538F314904AE890 /* ColorTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorTool.xcconfig; sourceTree = "<group>"; };
+		15F579F93FE69E503D6A5F5CE51CAF68 /* UIImage+Scale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		1ABA7DC73A299D7D88A7EA8DDDCD005D /* UIImage+maxSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+maxSize.m"; sourceTree = "<group>"; };
+		29B4916839EE00B5A41012AB16FBAE6D /* ColorTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorTool.xcconfig; sourceTree = "<group>"; };
 		2B70B0F79154156BAAE0943502799163 /* Pods-ColorTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2CF84213CE852818A3285F64B9CFA596 /* Pods-ColorTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorTool_Tests.modulemap"; sourceTree = "<group>"; };
 		2FD0ABB3721010E53B09162EE316432E /* Pods-ColorTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		32C4E8A7717BD12B1126DBB85A8BDCA7 /* ColorTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ColorTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39560B758E84668A4A2DE094AD178D86 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ColorTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3B352B5D568787153BFDBD9F78C97DCF /* Pods-ColorTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		3D594788EAF6DA4E9881F487772F98F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		480CD45A49C9C40EA2AE2E55235EBEC2 /* Pods-ColorTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4D59BA1B4B28FDB9DEDF2D5FB7A2D44D /* ColorTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorTool-prefix.pch"; sourceTree = "<group>"; };
-		524262D3BBA741AC70630B4882C9A04E /* ColorTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ColorTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52D2D19C1DA020F1D3302E957298CB70 /* Pods-ColorTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorTool_Example-dummy.m"; sourceTree = "<group>"; };
 		5CC55643995FE3F6C03F31F7C4B38C6C /* Pods-ColorTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTool_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6836222055B07177848172DCF0935C28 /* Pods-ColorTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D5CE8EC0C3D879E107965350B50CA6F /* ColorTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorTool-umbrella.h"; sourceTree = "<group>"; };
 		7133732D2FDEB7CE237DCC308D16328B /* Pods_ColorTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorTool_Example.framework; path = "Pods-ColorTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73C8A925323BB9BCF09273C86DCF95D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7C086D1602ED21ED04D28CC75A9340B5 /* Pods-ColorTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorTool_Example.modulemap"; sourceTree = "<group>"; };
+		7E67B016B608061C6EBD594E315CF550 /* UIImage+Scale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		85D9A4706ECDAF0926E07FEBA47AF9E2 /* Pods-ColorTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		88DC1AC5ACF17D8828784EF98D5FBAD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92368C47FD8DA9C80F0EFF5385CCCD65 /* Pods-ColorTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4E9E4014C26F2ED5632EF9B00B337E1 /* UIColor+HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		97ED551A0E5383EAF17FE10D5627B0D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9FD1299D23625B74BC67BA00D0436F0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD92C02923D0D1DBBC23802F458C8FB /* Pods-ColorTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B656622C69BDC934AD98B0FFE731D86F /* UIColor+HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		B1E5069025F93912197EB794871AB274 /* ColorTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorTool-dummy.m"; sourceTree = "<group>"; };
 		B9BA248025306FC101933ADFFA34EA94 /* Pods-ColorTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C6D4D3779265444FFA46F0D3A758F1A5 /* Pods-ColorTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE013300FE0A592AB873D8644769A15B /* Pods-ColorTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTool_Example-resources.sh"; sourceTree = "<group>"; };
+		DA454BDA9297BCD77FF35A6201751D06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DE0846B018F3350B177EC79D11E0B304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0CF855F6810D6FAC3AAF28F6DD50C7D /* ColorTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorTool-umbrella.h"; sourceTree = "<group>"; };
 		E10B0349DC5538F89D238343BFBAFA15 /* Pods-ColorTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F2F4225149E0C58841FCFA16E03DC430 /* ColorTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorTool.modulemap; sourceTree = "<group>"; };
-		F78E5C854577CB743978108717CED65D /* ColorTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorTool-dummy.m"; sourceTree = "<group>"; };
+		E96CF6B798BC90E725B3E618976A01FE /* ColorTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorTool-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,39 +103,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56607BBF6D2A64AD87B41A185032C527 /* Frameworks */ = {
+		BBCC5F149F5AEB6647C6B2BDA7457323 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94EA321CAC4BF75667EA1EF609587097 /* Foundation.framework in Frameworks */,
+				25F58C247083702EA3C8EED40A90A69F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1830B57947EAAF58CE48258A89A8BF04 /* Support Files */ = {
+		1B6F8C5C9044991966693965E3C62E48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2F4225149E0C58841FCFA16E03DC430 /* ColorTool.modulemap */,
-				2B00188867B5686ED538F314904AE890 /* ColorTool.xcconfig */,
-				F78E5C854577CB743978108717CED65D /* ColorTool-dummy.m */,
-				4D59BA1B4B28FDB9DEDF2D5FB7A2D44D /* ColorTool-prefix.pch */,
-				6D5CE8EC0C3D879E107965350B50CA6F /* ColorTool-umbrella.h */,
-				88DC1AC5ACF17D8828784EF98D5FBAD3 /* Info.plist */,
+				0A90D43A07B617C9C05A893F2BF9C27E /* ColorTool.modulemap */,
+				29B4916839EE00B5A41012AB16FBAE6D /* ColorTool.xcconfig */,
+				B1E5069025F93912197EB794871AB274 /* ColorTool-dummy.m */,
+				E96CF6B798BC90E725B3E618976A01FE /* ColorTool-prefix.pch */,
+				E0CF855F6810D6FAC3AAF28F6DD50C7D /* ColorTool-umbrella.h */,
+				9FD1299D23625B74BC67BA00D0436F0E /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ColorTool";
 			sourceTree = "<group>";
 		};
-		1F15482ED14A8D4393E69A564B746A86 /* UIColor */ = {
+		2FF4D158678F0FF37A190826F074D786 /* ColorTool */ = {
 			isa = PBXGroup;
 			children = (
-				A4E9E4014C26F2ED5632EF9B00B337E1 /* UIColor+HexColor.h */,
-				B656622C69BDC934AD98B0FFE731D86F /* UIColor+HexColor.m */,
+				39560B758E84668A4A2DE094AD178D86 /* ReplaceMe.m */,
+				6BA9D9CCBC5260AE3C8D310BA67C0983 /* Pod */,
+				1B6F8C5C9044991966693965E3C62E48 /* Support Files */,
+				D8B4458B5A0942A5BFDBEE3BA192D2DC /* UIColor */,
+				43AA262BB5F7C272AD11366E8D3AD53C /* UIImage */,
 			);
-			name = UIColor;
-			path = ColorTool/Classes/UIColor;
+			name = ColorTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		43AA262BB5F7C272AD11366E8D3AD53C /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				0734D415787ECBA62DD8516FBF3A866D /* UIImage+maxSize.h */,
+				1ABA7DC73A299D7D88A7EA8DDDCD005D /* UIImage+maxSize.m */,
+				15F579F93FE69E503D6A5F5CE51CAF68 /* UIImage+Scale.h */,
+				7E67B016B608061C6EBD594E315CF550 /* UIImage+Scale.m */,
+			);
+			name = UIImage;
+			path = ColorTool/Classes/UIImage;
+			sourceTree = "<group>";
+		};
+		506EB05DAD9A85692EC82A1D23DDDE0A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF4D158678F0FF37A190826F074D786 /* ColorTool */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5265CA455FFE516DE1E4617F8B500B52 /* Pods-ColorTool_Example */ = {
@@ -166,20 +197,12 @@
 			path = "Target Support Files/Pods-ColorTool_Tests";
 			sourceTree = "<group>";
 		};
-		6AA5D4C0459BB98607C89C734AB05235 /* Development Pods */ = {
+		6BA9D9CCBC5260AE3C8D310BA67C0983 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8BCBF6F34E1FC81DEADD8BB25D7380C6 /* ColorTool */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7BAD93086022D4D995DB71F0F6075F07 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				524262D3BBA741AC70630B4882C9A04E /* ColorTool.podspec */,
-				73C8A925323BB9BCF09273C86DCF95D9 /* LICENSE */,
-				0137EB1C3644F639FC44E5BD98B86AD7 /* README.md */,
+				32C4E8A7717BD12B1126DBB85A8BDCA7 /* ColorTool.podspec */,
+				97ED551A0E5383EAF17FE10D5627B0D0 /* LICENSE */,
+				DA454BDA9297BCD77FF35A6201751D06 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -188,23 +211,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6AA5D4C0459BB98607C89C734AB05235 /* Development Pods */,
+				506EB05DAD9A85692EC82A1D23DDDE0A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F08866B5F185A6C034DAA1BC0CB9FEB0 /* Products */,
 				E83579B9D1B9DE7F9A4B33AA9ACD30F8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8BCBF6F34E1FC81DEADD8BB25D7380C6 /* ColorTool */ = {
-			isa = PBXGroup;
-			children = (
-				24183D322A8F89DBBF8C696D6A81ADE8 /* ReplaceMe.m */,
-				7BAD93086022D4D995DB71F0F6075F07 /* Pod */,
-				1830B57947EAAF58CE48258A89A8BF04 /* Support Files */,
-				1F15482ED14A8D4393E69A564B746A86 /* UIColor */,
-			);
-			name = ColorTool;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -221,6 +232,16 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8B4458B5A0942A5BFDBEE3BA192D2DC /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				022884A10691A3105F237FF0C1C21612 /* UIColor+HexColor.h */,
+				13C6F139A80500C219AC725F5E5547DA /* UIColor+HexColor.m */,
+			);
+			name = UIColor;
+			path = ColorTool/Classes/UIColor;
 			sourceTree = "<group>";
 		};
 		E83579B9D1B9DE7F9A4B33AA9ACD30F8 /* Targets Support Files */ = {
@@ -253,12 +274,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E8BD323CA04C4C6D87C64C011C98457 /* Headers */ = {
+		E64F90FCCDCE447D5B5390EB72EDF110 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				738FB3FA8C47268D583678AC471924E3 /* ColorTool-umbrella.h in Headers */,
-				F70E165171DD16004A960C483BF7FBD9 /* UIColor+HexColor.h in Headers */,
+				DD80E0EF34BC55AD47CFD910E59FC134 /* ColorTool-umbrella.h in Headers */,
+				99588A4FAC7687A4E4D0D36CD1700A85 /* UIColor+HexColor.h in Headers */,
+				ED2FC55AB56430A02D92ECED4AE7FF7A /* UIImage+maxSize.h in Headers */,
+				4A73404367BA8290EB2276DF3BC8140B /* UIImage+Scale.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,13 +332,13 @@
 			productReference = 03BA7C7C015CC63991F450F6C625F064 /* Pods_ColorTool_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		73888F110AAC500019643336293FA20A /* ColorTool */ = {
+		9772B85DE7099B406BC8C0F2DBA0B411 /* ColorTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 648E5508EB1F0165B664BC83C93F3CBE /* Build configuration list for PBXNativeTarget "ColorTool" */;
+			buildConfigurationList = 18F86CBA98B2070DB8B84ED4E4BB92E4 /* Build configuration list for PBXNativeTarget "ColorTool" */;
 			buildPhases = (
-				BC5891162EAB674592EDF8662FE49E8D /* Sources */,
-				56607BBF6D2A64AD87B41A185032C527 /* Frameworks */,
-				5E8BD323CA04C4C6D87C64C011C98457 /* Headers */,
+				56693DF6A08695755EA8F21AF220CEE0 /* Sources */,
+				BBCC5F149F5AEB6647C6B2BDA7457323 /* Frameworks */,
+				E64F90FCCDCE447D5B5390EB72EDF110 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -347,7 +370,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73888F110AAC500019643336293FA20A /* ColorTool */,
+				9772B85DE7099B406BC8C0F2DBA0B411 /* ColorTool */,
 				600DD7DC4BF854DBB39C274AC072FD0D /* Pods-ColorTool_Example */,
 				6D86384217C203832D6B9D2A47B5912D /* Pods-ColorTool_Tests */,
 			);
@@ -363,21 +386,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56693DF6A08695755EA8F21AF220CEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9853ABA2933E603B3E8E5873CFCE8FC8 /* ColorTool-dummy.m in Sources */,
+				FD7927C38BE1AEB0305B61ACAB680CF1 /* ReplaceMe.m in Sources */,
+				3654398447208F3BA878B9051A6EA3AB /* UIColor+HexColor.m in Sources */,
+				D260B7DBE752AC9134040BFEB18522C9 /* UIImage+maxSize.m in Sources */,
+				DF74FA602068671037851532BC7FDE35 /* UIImage+Scale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A97C06EE83727631B720626AD3BC2AE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E2E95B65A8BC10417E51C7AF9D5A3E3B /* Pods-ColorTool_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC5891162EAB674592EDF8662FE49E8D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B8F9BFE9747BC5AEAA160411AAFACC0 /* ColorTool-dummy.m in Sources */,
-				2D6E7D983370D5B9869DD19DFA4E32C5 /* ReplaceMe.m in Sources */,
-				DC18A759F07E39C90F992F4BB172235E /* UIColor+HexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +412,7 @@
 		2821A1C3B1E9DB0F9C3082B8380D7052 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ColorTool;
-			target = 73888F110AAC500019643336293FA20A /* ColorTool */;
+			target = 9772B85DE7099B406BC8C0F2DBA0B411 /* ColorTool */;
 			targetProxy = 4DBEA4D59E366730F4F0F76CBC807899 /* PBXContainerItemProxy */;
 		};
 		5E944572120A1ACAB8A8AF0A1DBC9ED8 /* PBXTargetDependency */ = {
@@ -462,37 +487,6 @@
 			};
 			name = Debug;
 		};
-		348128DFAE0BD939F27824AD0C2B9E6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B00188867B5686ED538F314904AE890 /* ColorTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ColorTool/ColorTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ColorTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ColorTool/ColorTool.modulemap";
-				PRODUCT_MODULE_NAME = ColorTool;
-				PRODUCT_NAME = ColorTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		48217B30E2A8B560F943D162CA16F291 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 85D9A4706ECDAF0926E07FEBA47AF9E2 /* Pods-ColorTool_Tests.debug.xcconfig */;
@@ -525,6 +519,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6361B027AAC66BBA41EE610E3209F5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B4916839EE00B5A41012AB16FBAE6D /* ColorTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorTool/ColorTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorTool/ColorTool.modulemap";
+				PRODUCT_MODULE_NAME = ColorTool;
+				PRODUCT_NAME = ColorTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		95844EC90743D4CE6FC926F63C509A77 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -560,9 +585,9 @@
 			};
 			name = Release;
 		};
-		A41BEA5F2D5F4F0CF7DB119287A478F7 /* Debug */ = {
+		9CB1B396071BE243D863D76FBDC71FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B00188867B5686ED538F314904AE890 /* ColorTool.xcconfig */;
+			baseConfigurationReference = 29B4916839EE00B5A41012AB16FBAE6D /* ColorTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -718,20 +743,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18F86CBA98B2070DB8B84ED4E4BB92E4 /* Build configuration list for PBXNativeTarget "ColorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB1B396071BE243D863D76FBDC71FF9 /* Debug */,
+				6361B027AAC66BBA41EE610E3209F5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
 				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		648E5508EB1F0165B664BC83C93F3CBE /* Build configuration list for PBXNativeTarget "ColorTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A41BEA5F2D5F4F0CF7DB119287A478F7 /* Debug */,
-				348128DFAE0BD939F27824AD0C2B9E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
